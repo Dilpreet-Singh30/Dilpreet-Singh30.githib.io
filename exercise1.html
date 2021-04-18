@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <title>
+    
+         Dilpreet Singh's Portfolio
+    
+        </title>
+    </head>
+    <body>
+        <nav class="topnav" id= "portfolioTopnav">
+            <!--ul-->
+                <!--li--><a href="#About">About</a><!--/li-->
+                <!--li--><a href="#Skills">Skills</a><!--/li-->
+                <!--li--><a href="#Accomplishments">Accomplishments</a><!--/li--> 
+                <!--li--><a href="#Contact">Contact</a><!--/li-->
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+            <!--/ul-->
+        </nav>
+        <main>
+        <header>
+            <h1 class="headline">Dilpreet Singh</h1>
+        </header>
+        <figure>
+            <a href="https://research.qut.edu.au/biofabrication/team/dilpreet-singh/" target="_blank">
+            <img src = "DS-Headshot_Image.jpg" width="200" height="200" alt="A person posing for a photo."/>
+                <!--figcaption class="fig">Dilpreet Singh</figcaption--->
+            </a>
+        </figure>
+        <!--About section-->
+        <div id="Aboutsection">
+            <h2  class="heading" id = "About">About</h2>
+                <p>I am a <strong>PhD student</strong> in the Biofabrication and Tissue Morphology (BTM) group, <em>Queensland University of Technology</em>. With experience in developing Soft Haptics for robotic rehabilitaiton devices and a backgorund in Mechanical Engineering, I am currently working on developing Soft Force Sensors for biomedical applications.</p>
+                
+        </div>
+        <!--Skills section-->
+        <div id="Skillssection">
+            <h3 id="Skills">Skills</h3>
+                <h4 class="headskill1">Research Skills</h4>
+                    <ul class="list1">
+                        <li>Critical thinking</li>
+                        <li>Report writing</li>
+                        <li>Planning and scheduling</li>
+                        <li>Data analysis</li>
+                        <li>Attention to detail</li>
+                    </ul>
+                <h4 class="headskill2"> Interpersonal Skills</h4>
+                    <ul class="list2">
+                        <li>Leadership</li>
+                        <li>Collaboration</li>
+                        <li>Problem solving</li>
+                        <li>Empathy</li>
+                    </ul>     
+                <h4 class="headskill3">Technical Skills</h4>
+                    <ul class="list3">
+                        <li>Computer Aided Design software</li>
+                        <li>Matlab and Simulink</li>
+                        <li>Welding</li>
+                        <li>Project Managemnet</li>
+                    </ul>
+        </div>
+        <!--Accomplishments section-->
+        <div id="Accomplishmentssection">    
+            <h2 id="Accomplishments">Accomplishments</h2>
+                <table>
+                    <tr>
+                        <th class="columns1" scope="col">Publications</th>
+                        <th class="columns2" scope="col">Awards</th>
+                        <th class="columns3" scope="Presentations">Presentations</th>
+                    </tr>
+                    <tr>
+                        <td scope="col">
+                            <ul class="list4">
+                                <li> A 3D Printed Soft Force Sensor for Soft Haptics, 2020</li>
+                                <li>A 3D Printed Soft Robotic Monolithic Unit for Haptic Feedback Devices, 2019</li>
+                            </ul>
+                        </td>
+                        <td scope="col">
+                            <ul class="list5">
+                                <li> M.Eng. with Distinction</li>
+                                <li>B.Tech. with Distinction</li>
+                            </ul>
+                        </td>
+                        <td scope="col">
+                            <ul class="list6">
+                                <li> IEEE International Conference on Soft Robotics(RoboSoft)</li>
+                                <li>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</li>
+                            </ul>
+                        </td>
+                    </tr>  
+                </table>
+        </div>
+        <!--Contact section-->
+        <div  id="Contactsection">
+            <h2 class="contactform" id="Contact">Contact</h2>
+                <a href="https://www.linkedin.com/in/dilpreet-singh-19942019/" target="_blank">LinkedIn</a>
+                    <br><br>
+        <form>
+            <label for="name"> Name: </label>
+                <br>
+                    <input type="text" name="name" id="name" required>
+                      <br>
+                      <br>
+            <label for="email">*Email</label>
+                <br>
+                    <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                      <br>
+                      <br>
+            <label for="mobile">Mobile</label> 
+                <br>
+                    <input type="number" name="mobile" id="mobile" optional pattern="[0-9]">
+                      <br>
+            <label for="message">Leave your message below:</label>
+                <br>
+                <br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                      <br>
+                        <input type="submit">
+        </form>
+        </div>
+    </main>
+    <script src="./nav.js"></script>
+    </body>
+</html>

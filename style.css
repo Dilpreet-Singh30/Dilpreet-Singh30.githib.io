@@ -1,0 +1,159 @@
+
+h1 {
+    color: blue
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#About {
+    font-family: cursive;
+    text-transform: capitalize;
+}
+h1 {
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    text-align: center;
+}
+.headline {
+    color: black
+}
+.contactform{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 30px;
+    font-family: cursive;
+}
+.list1 li, .list2 li, .list3 li, .list4 li, .list5 li, .list6 li {
+    font-family: Arial;
+    font-size: 18px;
+    font-family: cursive;
+    color:grey
+}
+.columns1, .columns2, .columns3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-family: cursive;
+    color: palevioletred
+
+}
+h2 {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 30px;
+    font-family: cursive;
+}
+h3{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 25px;
+    font-family: cursive;
+}
+.headskill1, .headskill2, .headskill3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-family: cursive;
+    color:palevioletred
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+    font-family: cursive;
+    color: palevioletred ;
+ /*   height :  70px ;   
+    width :  00px ;  */ 
+    
+}
+img {
+    border-radius: 100%; 
+    border-style: solid;
+    border-color: black;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.fig{
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-family: cursive;
+    color: violet ;
+    
+}*/
+table, th, td {
+
+ border: 2px solid black;
+ padding: 2px; 
+ border-collapse: collapse;
+}
+/* Style the top navigation */
+.topnav {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: skyblue;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main{
+    margin-top: 20px;
+}
+header{
+    margin-top: 50px;
+}
+.topnav .icon {
+
+    display: none;
+}
+      /* When the screen is less than 600 pixels wide, hide all links. Show the iconthat should open and close the nav (.icon) */
+      
+      @media only screen and (max-width: 600px) {
+      
+        .topnav a {display: none;}
+      
+        .topnav a.icon {
+      
+          float: right;
+      
+          display: block;
+      
+        }
+      
+      }      
+      /* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+      @media only screen and (max-width: 600px) {
+        .topnav.responsive {
+          position: fixed;
+      }
+        .topnav.responsive a.icon {
+      
+          position: absolute;
+      
+          right: 0;
+      
+          top: 0;
+      
+        }
+      
+       
+      
+        .topnav.responsive a {
+      
+          float: none;
+      
+          display: block;
+      
+          text-align: left;
+      
+        }
+      
+      }
